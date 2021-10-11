@@ -1,0 +1,41 @@
+.navbar-site {
+    display: flex;
+    height: 50px;
+    background-color: #8d448b;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    .logo {
+        height: 30px;
+        width: 120px;
+        background: #fff;
+        margin: 8px;
+    }
+
+    .grupo-usuario-sair {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .foto-usuario {
+            height: 40px;
+            width: 40px;
+            background: #fff;
+            border-radius: 100%;
+        }
+
+        .btn-sair {
+            height: 40px;
+            width: 50px;
+            background: #fff;
+            margin:8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: cursive;
+        }
+    }
+}
